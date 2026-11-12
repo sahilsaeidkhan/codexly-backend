@@ -4,7 +4,7 @@ const validateMongoURI = (uri) => {
   if (!uri) {
     console.error('MONGO_URI is not defined in .env');
     console.error('  → Create a .env file in the project root with:');
-    console.error('    MONGO_URI=mongodb+srv://user:pass@cluster.mongodb.net/dbname');
+    console.error('    MONGO_URI=REPLACE_WITH_YOUR_MONGO_URI');
     process.exit(1);
   }
 
